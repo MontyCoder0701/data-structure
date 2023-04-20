@@ -7,9 +7,9 @@ int main()
     printf("a[0]       : %d\n", a[0]);
     printf("*a         : %d\n", *a); // *a means that a is a pointer to an integer.
     printf("*(a+1)     : %d\n", *(a + 1));
-    printf("*(&a[0])   : %d\n", *(&a[0]));     // *(&a[0]) means that a is a pointer to an integer. & means address of.
-    printf("*(&a[0]+1) : %d\n", *(&a[0] + 1)); // *(&a[0]+1) means that a is a pointer to an integer. & means address of. +1 means next address.
+    printf("*(&a[0])   : %d\n", *(&a[0]));     // pointer of the address in an integer in array
+    printf("*(&a[0]+1) : %d\n", *(&a[0] + 1)); // +1 means next address.
     printf("a          : %p\n", a);            // %p is a placeholder for a pointer.
-    printf("&a[0]      : %p\n", &a[0]);        // &a[0] means that a is a pointer to an integer. & means address of.
+    printf("&a[0]      : %p\n", &a[0]);
     printf("&a[0]+1    : %p\n", &a[0] + 1);
 }
