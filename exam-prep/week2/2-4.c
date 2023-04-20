@@ -7,7 +7,7 @@ int sum(int *a, int size) // a[] is used to access array elements, while *a is u
     for (i = 0; i < size; i++)
     {
         sum = sum + *a;
-        a = a + 1;
+        a = a + 1; // a++ is also possible. a+1 means next address.
     }
 
     return sum;

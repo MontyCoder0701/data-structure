@@ -4,8 +4,8 @@ int main()
 {
     int a[5] = {2000, 2001, 2002, 2003, 2004}; // int a[5] means that a is an array of 5 integers.
 
-    printf("a[0]       : %d\n", a[0]);
-    printf("*a         : %d\n", *a); // *a means that a is a pointer to an integer.
+    printf("a[0]       : %d\n", a[0]); // 0 is the address of the first element in an array.
+    printf("*a         : %d\n", *a);   // *a means that a is a pointer to an integer.
     printf("*(a+1)     : %d\n", *(a + 1));
     printf("*(&a[0])   : %d\n", *(&a[0]));     // pointer of the address in an integer in array
     printf("*(&a[0]+1) : %d\n", *(&a[0] + 1)); // +1 means next address.
