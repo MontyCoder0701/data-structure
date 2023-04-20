@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int sum(int a[], int size) // int a[] means that a is a pointer to an integer. int size means that size is an integer.
+int sum(int a[], int size)
 {
-    int i, sum = 0; // int i means that i is an integer. int sum means that sum is an integer.
+    int i, sum = 0;
 
     for (i = 0; i < size; i++)
         sum = sum + a[i]; // a[i] is the integer of an array
