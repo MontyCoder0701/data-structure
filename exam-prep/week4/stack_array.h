@@ -2,7 +2,7 @@
 
 typedef struct
 {
-    int Top;                // 스택의 탑을 표시하는 변수
+    int Top;                // 스택의 탑을 표시하는 변수 (index)
     int data[MaxStackSize]; // 스택의 원소를 저장하는 배열
 } stackType;                // Defines a new type called stackType
 

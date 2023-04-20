@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "linear_list.h"
 
+// list can be implemented using array or linked list.
+
 int main()
 {
 
