@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "stack_array.h"
 
+// A stack array is implemented using an array data structure.
+
 int main()
 {
     stackType st1; // 스택 생성
