@@ -16,5 +16,5 @@ int main()
 
 // Variable is a name that represents a value.
 // Array is a variable that stores multiple values of the same type.
-// Pointer is a variable that stores the address of another variable. The pointer points to the first element in an array so the address is 0.
+// Pointer is a variable that stores the address of another variable. The value of the variable is accessed (call by reference).
 // Address is a number that represents the location of a variable in memory.
