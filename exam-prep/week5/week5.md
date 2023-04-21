@@ -6,10 +6,17 @@ A queue is a linear data structure which follows a particular order in which the
 
 A queue can be implemented using array. A queue made with an array is called **Array-based Queue**. The advantage of using an array is that it is easy to implement and memory is saved as pointers are not involved. The disadvantage is that the size of the queue needs to be specified in advance and is fixed. Also, insertion and deletion in an array is expensive, because room has to be created for the new elements and to create space, existing elements have to be shifted.
 
+![image](https://user-images.githubusercontent.com/104475739/233641055-3d53b64a-cf19-44ab-9978-4b21f21a8c23.png)
+
 ## Queue with Linked List
 
 A queue can be implemented using linked list. A queue made with a linked list is called **Linked List-based Queue**. The advantage of using a linked list is that the size of the queue can grow and shrink on demand. The disadvantage is that it uses more memory than array-based queue because of the storage used by the pointers.
 
+![image](https://user-images.githubusercontent.com/104475739/233641451-b78e480b-59a7-43ce-be9e-e41db27df590.png)
+
+
 ## Circular Queue (with Array)
 
 A circular queue is a queue that uses an array in which the end of the array "wraps around" to the beginning of the array. Circular queues are useful in situations where a non-circular queue would cause the queue to overflow (i.e. the queue would exceed the size limit of the array) even though there are free spaces in the array. Circular queues are also used for process scheduling in operating systems. The advantage of using a circular queue is that the memory is saved as we use the same array space even if we dequeue a value. The disadvantage is that the size of the queue needs to be specified in advance and is fixed.
+
+![image](https://user-images.githubusercontent.com/104475739/233641522-afd00188-7845-490a-bad1-babc26f830f9.png)
