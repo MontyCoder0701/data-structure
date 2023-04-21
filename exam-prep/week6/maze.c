@@ -36,7 +36,7 @@ void moveMouse(mouseType *Mouse)
 }
 
 // 마우스를 해당 방향으로 움직일 수 있는지 검사
-// 우선 해당 방향으로 1칸 이동한 후, 이동 가능한지 검사
+// 우선 해당 방향으로 1칸 이동한 후, 이동 가능한지 검사 (DFS)
 // 1: 이동 가능, 0: 이동 불가능
 int movePossible(int x, int y, int direction)
 {
