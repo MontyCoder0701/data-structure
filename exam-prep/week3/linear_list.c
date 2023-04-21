@@ -2,7 +2,11 @@
 #include "linear_list.h"
 
 // array is fixed size
-// list is dynamic size (like vector). There is linear list and linked list.
+// list is dynamic size (like vector)
+
+// This code is for array-based list.
+// An array-based list is a type of list that is implemented using an array.
+// It is not strictly an array or a list, but rather a hybrid data structure that combines features of both.
 
 int main()
 {

@@ -13,3 +13,7 @@ gcc -o filename filename.c
 ```sh
 ./filename
 ```
+
+## MD files
+
+[Week 3: Linear DS (Array, Array-based list, Linked list)](./exam-prep/week3/week3.md)
