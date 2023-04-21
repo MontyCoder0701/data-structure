@@ -2,12 +2,7 @@
 #include <stdlib.h>
 #include "stack_list.h"
 
-// Difference between array and list
-// 1. Array is fixed size, but list is dynamic size
-// 2. Array is contiguous, but list is not contiguous
-// 3. Array is easy to access, but list is not easy to access
-
-// A stack list is implemented using a linked list data structure.
+// Stack implemented with linked list
 
 int main(void)
 {

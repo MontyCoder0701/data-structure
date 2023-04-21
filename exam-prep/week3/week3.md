@@ -1,4 +1,4 @@
-# Linear DS
+# Linear DS (Array, Linked List)
 
 ## Array
 
@@ -8,7 +8,6 @@
 
 ![image](https://user-images.githubusercontent.com/104475739/233633780-4d435dc6-2bf2-40bd-ac03-d8867f1ce3d2.png)
 
-
 ## Linked List
 
 - A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
@@ -16,3 +15,9 @@
 - In simple words, a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
 
 ![image](https://user-images.githubusercontent.com/104475739/233633862-328a1de6-2213-4cfe-8e72-48fc55a60a54.png)
+
+## Difference between Array and Linked List
+
+- Array is fixed size, but list is dynamic size
+- Array is contiguous, but list is not contiguous
+- Array is easy to access, but list is not easy to access
