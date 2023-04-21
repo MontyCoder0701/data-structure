@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "malloc.h": "c"
+        "malloc.h": "c",
+        "queue_array_cir.h": "c"
     }
 }
