@@ -16,5 +16,5 @@ gcc -o filename filename.c
 
 ## MD files
 
-[Week 3: Linear DS (Array, Array-based list, Linked list)](./exam-prep/week3/week3.md)
+[Week 3: Linear DS (Array, Array-based list, Linked list)](./exam-prep/week3/week3.md)  
 [Week 4: Linear DS (Stack (Array, Linked list))](./exam-prep/week4/week4.md)
