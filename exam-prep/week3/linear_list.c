@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "linear_list.h"
 
-// list can be implemented using array or linked list.
+// array is fixed size
+// list is dynamic size (like vector). There is linear list and linked list.
 
 int main()
 {
