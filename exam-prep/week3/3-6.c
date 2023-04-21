@@ -14,6 +14,6 @@ int main()
     int a[4] = {10, 20, 30, 40};
     int b[4] = {100, 200, 300, 400};
     int result;
-    result = func_add(a, b);
+    result = func_add(a, b); // a and b are passed by reference (*a, *b), so the values of the variables pointed to by a and b are changed.
     printf("%d", result);
 }
