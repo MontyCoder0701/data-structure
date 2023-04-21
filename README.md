@@ -19,3 +19,4 @@ gcc -o filename filename.c
 [Week 3: Linear DS (Array, Array-based list, Linked list)](./exam-prep/week3/week3.md)  
 [Week 4: Linear DS (Array-based stack, Linked list-based stack)](./exam-prep/week4/week4.md)  
 [Week 5: Linear DS (Array-based queue, Linked list-based queue, Circular queue)](./exam-prep/week5/week5.md)  
+[Week 6: Stack Application (Postfix, Maze)](./exam-prep/week6/week6.md)  

@@ -14,7 +14,6 @@ A queue can be implemented using linked list. A queue made with a linked list is
 
 ![image](https://user-images.githubusercontent.com/104475739/233641451-b78e480b-59a7-43ce-be9e-e41db27df590.png)
 
-
 ## Circular Queue (with Array)
 
 A circular queue is a queue that uses an array in which the end of the array "wraps around" to the beginning of the array. Circular queues are useful in situations where a non-circular queue would cause the queue to overflow (i.e. the queue would exceed the size limit of the array) even though there are free spaces in the array. Circular queues are also used for process scheduling in operating systems. The advantage of using a circular queue is that the memory is saved as we use the same array space even if we dequeue a value. The disadvantage is that the size of the queue needs to be specified in advance and is fixed.
