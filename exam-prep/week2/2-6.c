@@ -12,7 +12,7 @@ typedef struct
 int main()
 {
     personType mywife;       // declare a variable of type personType
-    personType *p = &mywife; // declare a pointer variable of type personType. *p is the pointer, & is the address-of operator, and mywife is the variable.
+    personType *p = &mywife; // declare a pointer variable that is dereferenced to access the value, which has the same value of the address of mywife.
 
     strcpy(mywife.name, "angela");
     p->age = 30; // p->age is the same as (*p).age.

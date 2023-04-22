@@ -14,11 +14,12 @@
 ## Example
 
 ```c
-int i = 3;
+int myAge = 43;     // Variable declaration
+int* ptr = &myAge;  // Pointer declaration
 
-// A pointer to variable i or "stores the address of i"
-int *ptr = &i;
+// Reference: Output the memory address of myAge with the pointer (0x7ffe5367e044)
+printf("%p\n", ptr);
 
-// A reference (or alias) for i.
-int &ref = i;
+// Dereference: Output the value of myAge with the pointer (43)
+printf("%d\n", *ptr);
 ```
