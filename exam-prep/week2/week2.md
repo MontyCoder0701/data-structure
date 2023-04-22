@@ -3,7 +3,8 @@
 ## Pointer
 
 - A pointer is a variable that holds the memory address of another variable.
-- A pointer needs to be dereferenced with the `*` operator to access the memory location it points to.
+- When used in declaration (int* ptr), it creates a pointer variable.
+- When not used in declaration, it act as a dereference operator.
 
 ## Reference
 
@@ -12,6 +13,8 @@
 - Reference is declared by using `&` operator.
 
 ## Example
+
+`&` and `*` cancels out each other. &a is the address of a, and *a is the value of a.
 
 ```c
 int myAge = 43;     // Variable declaration

@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int sum(int *a, int size) // *a holds the address, then is dereferenced to access the value.
+int sum(int *a, int size)
 {
     int i, sum = 0;
 
     for (i = 0; i < size; i++)
     {
-        sum = sum + *a; // dereferences pointer to access value.
-        a = a + 1;      // increments the address.
+        sum = sum + *a; // *(score) == score[0]
+        a = a + 1;      // +1 increments the address. (score+1 == &score[1])
     }
 
     return sum;
