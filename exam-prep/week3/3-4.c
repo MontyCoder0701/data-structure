@@ -6,6 +6,6 @@ int main()
 
     printf("%d", a[0]);
     printf("%d", a[1]);
-    printf("%d", *a); // a is a pointer to the first element of the array.
+    printf("%d", *a);
     printf("%d", *(a + 1));
 }

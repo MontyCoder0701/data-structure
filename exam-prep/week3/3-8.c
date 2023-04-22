@@ -4,12 +4,12 @@
 typedef struct charNode
 {
     char ch;
-    struct charNode *p; // a pointer to another charNode struct named p
+    struct charNode *p; // dereferencing p will give you the value to a struct charNode
 } nodeType;             // nodeType is a type name for struct charNode
 
 int main()
 {
-    nodeType *node1, *node2; // node1 and node2 are pointers to nodeType structs
+    nodeType *node1, *node2;
 
     node1 = (nodeType *)malloc(sizeof(nodeType)); // allocate memory for node1
     node1->ch = 'X';                              // assign 'X' to node1->ch

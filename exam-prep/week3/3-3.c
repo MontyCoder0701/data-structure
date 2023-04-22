@@ -11,6 +11,6 @@ void swap(int *x, int *y)
 int main()
 {
     int a = 10, b = 20;
-    swap(&a, &b);            // a and b are passed by reference, so the values of the variables pointed to by a and b are changed.
+    swap(&a, &b);
     printf("%d   %d", a, b); // The problem is that the swapping is being done on the pointers themselves, not the values they point to.
 }
