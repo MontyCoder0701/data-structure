@@ -20,10 +20,10 @@ int main()
     temp = (nodeType *)malloc(sizeof(nodeType));
     temp->item = 'C';
     temp->next = NULL;
-    insertNext(head, temp); // 생성된 노드를 삽입. (B, C 순서로 삽입됨)
+    insertNext(head, temp); // 생성된 노드를 삽입. (결과는 A, C, B)
 
     printList(head);
 
-    removeNext(head); // 첫번째 노드의 다음 노드를 삭제
+    removeNext(head); // 첫번째 노드의 다음 노드를 삭제 (C 삭제)
     printList(head);
 }

@@ -47,7 +47,7 @@ void insertNext(nodeType *prevNode, nodeType *newNode)
 	if (newNode != NULL)
 	{
 		newNode->next = prevNode->next; // newNode의 next는 prevNode의 next를 가리킴
-		prevNode->next = newNode;		// prevNode의 next는 newNode를 가리킴
+		prevNode->next = newNode;		// prevNode의 next는 newNode를 가리킴 (결과는 prev -> new -> next)
 	}
 }
 
