@@ -4,7 +4,7 @@
 typedef struct charNode
 {
     char ch;
-    struct charNode *p; // dereferencing p will give you the value to a struct charNode
+    struct charNode *p; // pointer initialized
 } nodeType;             // nodeType is a type name for struct charNode
 
 int main()

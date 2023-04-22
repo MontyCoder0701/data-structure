@@ -9,11 +9,11 @@ void change_value(int *p, int *q)
 
 int main()
 {
-    int *a, *b;              // a and b are pointers to integers. We can use them to store the addresses of integers.
-    a = malloc(sizeof(int)); // malloc returns a pointer to the allocated memory. sizeof(int) is the size of the memory to be allocated in bytes.
+    int *a, *b;              // initialize pointers
+    a = malloc(sizeof(int)); // allocate memory for a.
     b = malloc(sizeof(int));
     *a = 10;
     *b = 20;
-    change_value(a, b); // a and b are passed by reference, so the values of the variables pointed to by a and b are changed.
-    printf("%d   %d", *a, *b);
+    change_value(a, b);
+    printf("%d   %d", *a, *b); // dereferenced to access the value
 }

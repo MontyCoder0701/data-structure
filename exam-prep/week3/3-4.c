@@ -6,6 +6,6 @@ int main()
 
     printf("%d", a[0]);
     printf("%d", a[1]);
-    printf("%d", *a);
-    printf("%d", *(a + 1));
+    printf("%d", *a);       // *a == a[0]
+    printf("%d", *(a + 1)); // *(a + 1) == a[1]
 }

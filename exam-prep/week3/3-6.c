@@ -3,8 +3,8 @@
 int func_add(int *a, int *b)
 {
     int result;
-    a = a + 1; // increment pointer by 1
-    b = b + 1; // increment pointer by 1
+    a = a + 1; // a+1 increments the address. (a+1 == &a[1])
+    b = b + 1; // b+1 increments the address. (b+1 == &b[1])
     result = *a + *b;
     return result;
 }
